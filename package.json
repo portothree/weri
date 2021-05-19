@@ -1,0 +1,16 @@
+{
+  "name": "weri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx serve ./public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "serve": "^11.3.2"
+  },
+  "keywords": [],
+  "author": "portothree",
+  "license": "MIT"
+}

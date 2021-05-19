@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Room - Weri</title>
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<meta property="og:title" content="" />
+		<meta property="og:type" content="" />
+		<meta property="og:url" content="" />
+		<meta property="og:image" content="" />
+
+		<link rel="manifest" href="site.webmanifest" />
+		<link rel="apple-touch-icon" href="icon.png" />
+
+		<link rel="stylesheet" href="../../css/styles.css" />
+
+		<script>
+			if (!window.MediaRecorder || !window.navigator.getUserMedia) {
+				document.write(
+					decodeURI(
+						'%3Cscript defer src="../../js/polyfills/media-recorder.js">%3C/script>'
+					)
+				);
+			}
+		</script>
+	</head>
+
+	<body>
+		<nav>
+			<a href="./../lobby/index.html">All Rooms</a>
+			<div>
+				<img src="../../assets/icons/file.svg" alt="File icon" />
+				<div>
+					<img src="../../assets/avatar.svg" />
+				</div>
+			</div>
+		</nav>
+
+		<div>
+			<p>Talk description</p>
+			<ul>
+				<li>
+					<img src="../../assets/avatar.svg" alt="User avatar" />
+					<p>
+						<span>*</span>
+						User #1
+					</p>
+				</li>
+			</ul>
+			<p>Others on Room</p>
+			<ul>
+				<li>
+					<img src="./../../assets/avatar.svg" alt="Room image" />
+					<p>User #2</p>
+				</li>
+			</ul>
+		</div>
+
+		<footer>
+			<div>
+				<button>Leave room</button>
+				<div>
+					<button>Clipboard</button>
+
+					<button>Add</button>
+
+					<button>Clap</button>
+
+					<button>Micro</button>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

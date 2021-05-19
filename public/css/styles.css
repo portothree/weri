@@ -1,0 +1,24 @@
+@import url(reset.css);
+@import url(_variables.css);
+
+html,
+body {
+	height: 100%;
+	color: var(--headline-color);
+}
+
+body {
+	background: var(--background-color);
+}
+
+a {
+	text-decoration: none;
+}
+
+audio {
+	display: none;
+}
+
+.hidden {
+	display: none;
+}
